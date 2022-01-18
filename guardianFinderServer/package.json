@@ -1,0 +1,18 @@
+{
+  "name": "bungie-connect-server",
+  "version": "1.0.0",
+  "description": "server application for interacting with bungie api",
+  "main": "server.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server.js"
+  },
+  "author": "Stewart Mckenzie",
+  "license": "ISC",
+  "dependencies": {
+    "bungieConnect": "file:../bungieConnect",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "guardianStatFinder": "file:../guardianFinder",
+    "nodemon": "^2.0.7"
+  }
+}
